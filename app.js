@@ -6,7 +6,14 @@ var car = {
   honk: function() { 
     console.log('beep');
     alert('beep beep');
-  }
+  },
+  // adding a driver object to the car object
+  driver: { 
+    firstName: 'John',
+    lastName: 'Doe',
+    age: '25',
+    license: 'NY'}
+    
 }
 
 // Using dot notation to access the properties of the object
