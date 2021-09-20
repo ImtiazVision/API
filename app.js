@@ -13,7 +13,7 @@ var car = {
     lastName: 'Doe',
     age: '25',
     license: 'NY'}
-    
+
 }
 
 // Using dot notation to access the properties of the object
@@ -21,3 +21,9 @@ console.log(car.make);
 console.log(car.model);
 console.log(car.year);
 console.log(car.color);
+
+// Accessing the driver object within the car object
+console.log(car.driver.firstName);
+console.log(car.driver.lastName);
+console.log(car.driver.age);
+console.log(car.driver.license);
