@@ -22,7 +22,7 @@ console.log(car.model);
 console.log(car.year);
 console.log(car.color);
 
-// Accessing the driver object within the car object
+// Accessing the driver object within the car object. We can just use the dot notation to access the properties of the driver object.Just add an extra dot to access nested objects.
 console.log(car.driver.firstName);
 console.log(car.driver.lastName);
 console.log(car.driver.age);
