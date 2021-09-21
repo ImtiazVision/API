@@ -2,6 +2,7 @@ var request = new XMLHttpRequest();
 
 request.open('GET', 'https://hplussport.com/api/products');
 // The base URL allows us to connect to the API and get a response full of data.We can filter the data by using parameter.
+// the following request will open 2 products, with their order and name.
 request.open('GET', 'https://hplussport.com/api/products/qty/2/order/name');
 
 // request.onload will trigger the function
